@@ -1,0 +1,287 @@
+{
+  "brand": {
+    "name": "꿀픽로그",
+    "handle": "@kkulpicklog",
+    "tagline": "꿀템만 골라 담는 리뷰 로그",
+    "dashboard_title": "수익화 대시보드"
+  },
+  "meta": {
+    "updated_at": "2026-11-27",
+    "updated_label": "2026년 11월 27일 기준",
+    "note": "이 파일(data.json)만 수정해서 올리면 대시보드에 그대로 반영됩니다."
+  },
+  "kpis": [
+    {
+      "id": "contents",
+      "label": "발행한 콘텐츠",
+      "value": "7",
+      "unit": "건",
+      "sub": "블로그 2 · 스레드 2 · 숏폼 3",
+      "tone": "gold"
+    },
+    {
+      "id": "coupang_goal",
+      "label": "쿠팡 파트너스 90일 실적",
+      "value": "56,710",
+      "unit": "원",
+      "sub": "목표 150,000원 · 달성 37.8%",
+      "tone": "amber"
+    },
+    {
+      "id": "coupang_remain",
+      "label": "최종 승인까지 남은 금액",
+      "value": "93,290",
+      "unit": "원",
+      "sub": "150,000원 − 56,710원",
+      "tone": "plain"
+    },
+    {
+      "id": "coupang_total",
+      "label": "누적 수익",
+      "value": "1,702",
+      "unit": "원",
+      "sub": "이번 달 11,900원 중 확정 357원",
+      "tone": "plain"
+    }
+  ],
+  "coupang": {
+    "label": "쿠팡 파트너스 · 최근 90일",
+    "current": 56710,
+    "target": 150000,
+    "percent": 37.8,
+    "currency": "원",
+    "rows": [
+      { "label": "최근 90일 실적", "value": "56,710원" },
+      { "label": "목표 금액", "value": "150,000원" },
+      { "label": "남은 금액", "value": "93,290원" },
+      { "label": "누적 수익", "value": "1,702원" },
+      { "label": "이번 달 예상 수익", "value": "11,900원" },
+      { "label": "이번 달 확정 수익", "value": "357원" }
+    ]
+  },
+  "platform_status": [
+    {
+      "name": "쿠팡 파트너스",
+      "state": "가동 중",
+      "detail": "90일 56,710원 / 목표 150,000원 · 최종 승인 대기",
+      "state_key": "active"
+    },
+    {
+      "name": "네이버 쇼핑 커넥트",
+      "state": "개설 완료",
+      "detail": "스페이스 활성화 · 첫 링크 발급 · 블로그/유튜브 연동 완료",
+      "state_key": "ready"
+    },
+    {
+      "name": "토스 쉐어링크",
+      "state": "승인 완료",
+      "detail": "채널 5개 등록 · 첫 링크 발급",
+      "state_key": "ready"
+    }
+  ],
+  "content_mix": [
+    { "label": "블로그", "value": 2, "color": "#3BC48C" },
+    { "label": "스레드", "value": 2, "color": "#B47BFF" },
+    { "label": "숏폼 (쇼츠·릴스·틱톡)", "value": 3, "color": "#E8B33C" }
+  ],
+  "contents": [
+    {
+      "id": "blog-1",
+      "platform": "네이버 블로그",
+      "platform_key": "blog",
+      "kind": "블로그",
+      "title": "가열식 가습기 비교",
+      "url": "https://blog.naver.com/beat1it/224494532329"
+    },
+    {
+      "id": "blog-2",
+      "platform": "네이버 블로그",
+      "platform_key": "blog",
+      "kind": "블로그",
+      "title": "보습로션 비교",
+      "url": "https://blog.naver.com/beat1it/224494808961"
+    },
+    {
+      "id": "threads-1",
+      "platform": "스레드",
+      "platform_key": "threads",
+      "kind": "스레드",
+      "title": "가열식 가습기",
+      "url": "https://www.threads.com/@kkulpicklog/post/DgPN2oLnx8j"
+    },
+    {
+      "id": "threads-2",
+      "platform": "스레드",
+      "platform_key": "threads",
+      "kind": "스레드",
+      "title": "난방비 · 전기요",
+      "url": "https://www.threads.com/@kkulpicklog/post/DgPOWbwHyXV"
+    },
+    {
+      "id": "shorts-1",
+      "platform": "유튜브 쇼츠",
+      "platform_key": "youtube",
+      "kind": "숏폼",
+      "title": "쇼츠 ①",
+      "url": "https://youtube.com/shorts/Ggiqw7aAhE4"
+    },
+    {
+      "id": "reels-1",
+      "platform": "인스타그램 릴스",
+      "platform_key": "instagram",
+      "kind": "숏폼",
+      "title": "릴스 ①",
+      "url": "https://www.instagram.com/reel/DgPPiLQzJyU/"
+    },
+    {
+      "id": "tiktok-1",
+      "platform": "틱톡",
+      "platform_key": "tiktok",
+      "kind": "숏폼",
+      "title": "틱톡 ①",
+      "url": "https://www.tiktok.com/@kkulpicklog/video/7712765628578286854"
+    }
+  ],
+  "affiliates": [
+    {
+      "product": "보본 1.7L 가습기",
+      "category": "가습기",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 5,
+      "url": "https://naver.me/5MvikO1v"
+    },
+    {
+      "product": "주코 포그니 4L 가습기",
+      "category": "가습기",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 18,
+      "url": "https://naver.me/551SAfcm"
+    },
+    {
+      "product": "에어메이드 2.0 가습기",
+      "category": "가습기",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 10,
+      "url": "https://naver.me/Fhu9Xz9v"
+    },
+    {
+      "product": "듀플렉스 DP-AL50SH 가습기",
+      "category": "가습기",
+      "platform": "쿠팡",
+      "platform_key": "coupang",
+      "commission": 3,
+      "url": "https://link.coupang.com/a/i0MhvLcrZc"
+    },
+    {
+      "product": "한일의료기 HL-D205 전기요",
+      "category": "전기요·매트",
+      "platform": "쿠팡",
+      "platform_key": "coupang",
+      "commission": 3,
+      "url": "https://link.coupang.com/a/i0MiRfombs"
+    },
+    {
+      "product": "한일의료기 3만원대",
+      "category": "전기요·매트",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": null,
+      "url": "https://naver.me/FvTqMIc2"
+    },
+    {
+      "product": "비오닉 토퍼형 탄소매트",
+      "category": "전기요·매트",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 33,
+      "url": "https://naver.me/Gi0SV4lE"
+    },
+    {
+      "product": "세타필 591ml",
+      "category": "스킨케어",
+      "platform": "쿠팡",
+      "platform_key": "coupang",
+      "commission": 3,
+      "url": "https://link.coupang.com/a/i0Mkhlz9RA"
+    },
+    {
+      "product": "세타필 591ml",
+      "category": "스킨케어",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 10,
+      "url": "https://naver.me/xllN5mPF"
+    },
+    {
+      "product": "일리윤 350ml",
+      "category": "스킨케어",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 8,
+      "url": "https://naver.me/FAAFKlQh"
+    },
+    {
+      "product": "모던 밍크 극세사 담요",
+      "category": "리빙",
+      "platform": "토스",
+      "platform_key": "toss",
+      "commission": 5,
+      "url": "https://toss.shopping/_m/lvS1E7Jw"
+    }
+  ],
+  "channels": [
+    {
+      "name": "유튜브",
+      "handle": "@kkulpicklog",
+      "url": "https://www.youtube.com/@kkulpicklog",
+      "key": "youtube"
+    },
+    {
+      "name": "인스타그램",
+      "handle": "@kkulpicklog",
+      "url": "https://www.instagram.com/kkulpicklog/",
+      "key": "instagram"
+    },
+    {
+      "name": "스레드",
+      "handle": "@kkulpicklog",
+      "url": "https://www.threads.com/@kkulpicklog",
+      "key": "threads"
+    },
+    {
+      "name": "틱톡",
+      "handle": "@kkulpicklog",
+      "url": "https://www.tiktok.com/@kkulpicklog",
+      "key": "tiktok"
+    },
+    {
+      "name": "네이버 블로그",
+      "handle": "beat1it",
+      "url": "https://blog.naver.com/beat1it",
+      "key": "blog"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "coupang-verify",
+      "task": "쿠팡 파트너스 본인인증",
+      "detail": "기한 2026-12-06",
+      "urgent": true
+    },
+    {
+      "id": "youtube-verify",
+      "task": "유튜브 채널 6초 영상 인증",
+      "detail": "외부 링크 · 댓글 고정 활성화",
+      "urgent": false
+    },
+    {
+      "id": "tiktok-comment",
+      "task": "틱톡 첫 댓글에 제휴 링크 수동 추가",
+      "detail": "영상 설명 링크가 막혀 댓글에 직접",
+      "urgent": false
+    }
+  ]
+}
