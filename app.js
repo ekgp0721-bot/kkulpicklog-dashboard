@@ -73,7 +73,7 @@
     }
     var label = (d.meta && (d.meta.updated_label || d.meta.updated_at)) || "";
     if (label) {
-      $("#updated").textContent = label + " 기준";
+      $("#updated").textContent = /기준$/.test(label) ? label : label + " 기준";
       $("#footer-updated").textContent = "데이터 " + label;
     }
     if (d.meta && d.meta.note) $("#foot-note").textContent = d.meta.note;
