@@ -14,9 +14,9 @@
     {
       "id": "contents",
       "label": "발행한 콘텐츠",
-      "value": "7",
+      "value": "13",
       "unit": "건",
-      "sub": "블로그 2 · 스레드 2 · 숏폼 3 (오늘 신규 0건)",
+      "sub": "블로그 3 · 스레드 4 · 숏폼 6 (오늘 +6건)",
       "tone": "gold"
     },
     {
@@ -45,10 +45,10 @@
     },
     {
       "id": "channel_views",
-      "label": "공개 채널 조회 (7건)",
+      "label": "공개 채널 조회 (1탄 7건)",
       "value": "121",
       "unit": "회",
-      "sub": "쇼츠 24 · 틱톡 68 · 블로그 17 · 스레드 12 (릴스 미표시)",
+      "sub": "쇼츠 24 · 틱톡 68 · 블로그 17 · 스레드 12 · 2탄 6건은 집계 전",
       "tone": "gold"
     }
   ],
@@ -111,48 +111,48 @@
     {
       "name": "유튜브 쇼츠",
       "state": "운영 중",
-      "detail": "1편 · 조회 24 · 댓글 1",
+      "detail": "2편 · 1편 조회 24 · 2편 집계 전",
       "state_key": "ready"
     },
     {
       "name": "인스타그램 릴스",
       "state": "운영 중",
-      "detail": "1편 · 좋아요 0 · 댓글 1 (조회수 웹 미표시)",
+      "detail": "2편 · 1편 좋아요 0 · 댓글 1 · 2편 집계 전",
       "state_key": "ready"
     },
     {
       "name": "스레드",
       "state": "운영 중",
-      "detail": "2편 · 조회 7 / 5 · 외부 댓글 0",
+      "detail": "4편 · 1편 조회 7 / 5 · 2탄 집계 전",
       "state_key": "ready"
     },
     {
       "name": "틱톡",
       "state": "운영 중",
-      "detail": "1편 · 조회 68 · 좋아요 1 · 댓글 0",
+      "detail": "2편 · 1편 조회 68 · 좋아요 1 · 댓글 0 · 2편 집계 전",
       "state_key": "ready"
     },
     {
       "name": "네이버 블로그",
       "state": "운영 중",
-      "detail": "2편 · 조회 5 / 12 · 공감 0 · 댓글 0",
+      "detail": "3편 · 1탄 조회 5 / 12 · 2탄 집계 전",
       "state_key": "ready"
     }
   ],
   "content_mix": [
     {
       "label": "블로그",
-      "value": 2,
+      "value": 3,
       "color": "#3BC48C"
     },
     {
       "label": "스레드",
-      "value": 2,
+      "value": 4,
       "color": "#B47BFF"
     },
     {
       "label": "숏폼 (쇼츠·릴스·틱톡)",
-      "value": 3,
+      "value": 6,
       "color": "#E8B33C"
     }
   ],
@@ -174,6 +174,14 @@
       "url": "https://blog.naver.com/beat1it/224494808961"
     },
     {
+      "id": "blog-3",
+      "platform": "네이버 블로그",
+      "platform_key": "blog",
+      "kind": "블로그 · 오늘 발행",
+      "title": "욕실 온풍기 비교",
+      "url": "https://blog.naver.com/beat1it/224495882125"
+    },
+    {
       "id": "threads-1",
       "platform": "스레드",
       "platform_key": "threads",
@@ -190,12 +198,36 @@
       "url": "https://www.threads.com/@kkulpicklog/post/DgPOWbwHyXV"
     },
     {
+      "id": "threads-3",
+      "platform": "스레드",
+      "platform_key": "threads",
+      "kind": "스레드 · 오늘 게시",
+      "title": "욕실 온풍기 기준·가격",
+      "url": "https://www.threads.com/@kkulpicklog/post/DgRgyLrn0v8"
+    },
+    {
+      "id": "threads-4",
+      "platform": "스레드",
+      "platform_key": "threads",
+      "kind": "스레드 · 오늘 게시",
+      "title": "욕실 온풍기 40분·가구원 전기요금",
+      "url": "https://www.threads.com/@kkulpicklog/post/DgRhHaAHyTC"
+    },
+    {
       "id": "shorts-1",
       "platform": "유튜브 쇼츠",
       "platform_key": "youtube",
       "kind": "숏폼 · 조회 24 · 댓글 1",
       "title": "쇼츠 ①",
       "url": "https://youtube.com/shorts/Ggiqw7aAhE4"
+    },
+    {
+      "id": "shorts-2",
+      "platform": "유튜브 쇼츠",
+      "platform_key": "youtube",
+      "kind": "숏폼 · 오늘 업로드",
+      "title": "쇼츠 ② 욕실 온풍기",
+      "url": "https://youtube.com/shorts/VcWFSjK7_G0"
     },
     {
       "id": "reels-1",
@@ -206,12 +238,28 @@
       "url": "https://www.instagram.com/reel/DgPPiLQzJyU/"
     },
     {
+      "id": "reels-2",
+      "platform": "인스타그램 릴스",
+      "platform_key": "instagram",
+      "kind": "숏폼 · 오늘 업로드",
+      "title": "릴스 ② 욕실 온풍기",
+      "url": "https://www.instagram.com/reels/DgRh6lJzm9A/"
+    },
+    {
       "id": "tiktok-1",
       "platform": "틱톡",
       "platform_key": "tiktok",
       "kind": "숏폼 · 조회 68 · 좋아요 1 · 댓글 0",
       "title": "틱톡 ①",
       "url": "https://www.tiktok.com/@kkulpicklog/video/7712765628578286854"
+    },
+    {
+      "id": "tiktok-2",
+      "platform": "틱톡",
+      "platform_key": "tiktok",
+      "kind": "숏폼 · 오늘 업로드",
+      "title": "틱톡 ② 욕실 온풍기",
+      "url": "https://www.tiktok.com/@kkulpicklog/video/7713094932352896277"
     }
   ],
   "affiliates": [
@@ -302,6 +350,38 @@
       "platform_key": "toss",
       "commission": 5,
       "url": "https://toss.shopping/_m/lvS1E7Jw"
+    },
+    {
+      "product": "대우 욕실 PTC 온풍기",
+      "category": "욕실 난방",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 16,
+      "url": "https://naver.me/GFsFXHNB"
+    },
+    {
+      "product": "바툼 욕실 온풍기 4.0",
+      "category": "욕실 난방",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 23,
+      "url": "https://naver.me/5vJ8zmlR"
+    },
+    {
+      "product": "에어리어 A3 욕실난방기",
+      "category": "욕실 난방",
+      "platform": "네이버",
+      "platform_key": "naver",
+      "commission": 8,
+      "url": "https://naver.me/FsoZQEH1"
+    },
+    {
+      "product": "대우 DEH-K250B 욕실 온풍기",
+      "category": "욕실 난방",
+      "platform": "쿠팡",
+      "platform_key": "coupang",
+      "commission": 3,
+      "url": "https://link.coupang.com/a/i1wetsacYC"
     }
   ],
   "channels": [
@@ -352,13 +432,13 @@
     {
       "id": "tiktok-comment",
       "task": "틱톡 첫 댓글에 제휴 링크 수동 추가",
-      "detail": "영상 설명 링크가 막혀 댓글에 직접",
+      "detail": "1편·2편 모두 댓글 0 — 앱에서 붙여넣기",
       "urgent": false
     },
     {
       "id": "toss-login",
       "task": "토스 쉐어링크 실적 조회 로그인",
-      "detail": "휴대폰 본인인증 필요 (다혜 님 확인)",
+      "detail": "휴대폰 본인인증 필요 (확인 대기)",
       "urgent": false
     }
   ]
