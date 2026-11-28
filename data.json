@@ -6,9 +6,9 @@
     "dashboard_title": "수익화 대시보드"
   },
   "meta": {
-    "updated_at": "2026-11-27",
-    "updated_label": "2026년 11월 27일 기준",
-    "note": "이 파일(data.json)만 수정해서 올리면 대시보드에 그대로 반영됩니다."
+    "updated_at": "2026-11-28",
+    "updated_label": "2026년 11월 28일 기준",
+    "note": "이 파일(data.json)만 수정해서 올리면 대시보드에 그대로 반영됩니다. 수치는 조회 시점 기준이며, 로그인·인증이 막힌 플랫폼은 미확인으로 표기합니다."
   },
   "kpis": [
     {
@@ -16,7 +16,7 @@
       "label": "발행한 콘텐츠",
       "value": "7",
       "unit": "건",
-      "sub": "블로그 2 · 스레드 2 · 숏폼 3",
+      "sub": "블로그 2 · 스레드 2 · 숏폼 3 (오늘 신규 0건)",
       "tone": "gold"
     },
     {
@@ -24,7 +24,7 @@
       "label": "쿠팡 파트너스 90일 실적",
       "value": "56,710",
       "unit": "원",
-      "sub": "목표 150,000원 · 달성 37.8%",
+      "sub": "목표 150,000원 · 달성 37.8% (11-27 기준)",
       "tone": "amber"
     },
     {
@@ -40,56 +40,132 @@
       "label": "누적 수익",
       "value": "1,702",
       "unit": "원",
-      "sub": "이번 달 11,900원 중 확정 357원",
+      "sub": "최근 90일 확정 · 이번 달 357원",
       "tone": "plain"
+    },
+    {
+      "id": "channel_views",
+      "label": "공개 채널 조회 (7건)",
+      "value": "53",
+      "unit": "회",
+      "sub": "블로그 17 · 스레드 12 · 쇼츠 24 · 릴스·틱톡 미표시",
+      "tone": "gold"
     }
   ],
   "coupang": {
-    "label": "쿠팡 파트너스 · 최근 90일",
+    "label": "쿠팡 파트너스 · 90일 실적(11-27 기준) · 30일은 11-28 조회",
     "current": 56710,
     "target": 150000,
     "percent": 37.8,
     "currency": "원",
     "rows": [
-      { "label": "최근 90일 실적", "value": "56,710원" },
-      { "label": "목표 금액", "value": "150,000원" },
-      { "label": "남은 금액", "value": "93,290원" },
-      { "label": "누적 수익", "value": "1,702원" },
-      { "label": "이번 달 예상 수익", "value": "11,900원" },
-      { "label": "이번 달 확정 수익", "value": "357원" }
+      {
+        "label": "최근 90일 실적",
+        "value": "56,710원 (11-27 기준)"
+      },
+      {
+        "label": "최근 30일 클릭",
+        "value": "7회 (10.29~11.27)"
+      },
+      {
+        "label": "최근 30일 구매",
+        "value": "1건 · 매출 11,900원"
+      },
+      {
+        "label": "최근 30일 수익",
+        "value": "357원 · 전환율 14.29%"
+      },
+      {
+        "label": "11-27 하루",
+        "value": "클릭 6 · 구매 0 · 0원"
+      },
+      {
+        "label": "목표 금액",
+        "value": "150,000원"
+      },
+      {
+        "label": "남은 금액",
+        "value": "93,290원"
+      },
+      {
+        "label": "누적 수익(90일)",
+        "value": "1,702원"
+      }
     ]
   },
   "platform_status": [
     {
       "name": "쿠팡 파트너스",
       "state": "가동 중",
-      "detail": "90일 56,710원 / 목표 150,000원 · 최종 승인 대기",
+      "detail": "90일 56,710원 / 목표 150,000원 · 최근 30일 클릭 7·구매 1·수익 357원 (11-28 조회)",
       "state_key": "active"
     },
     {
       "name": "네이버 쇼핑 커넥트",
       "state": "개설 완료",
-      "detail": "스페이스 활성화 · 첫 링크 발급 · 블로그/유튜브 연동 완료",
+      "detail": "최근 30일 클릭 20 · 상품주문 0건 · 수익 0원 (11-27 기준)",
       "state_key": "ready"
     },
     {
       "name": "토스 쉐어링크",
-      "state": "승인 완료",
-      "detail": "채널 5개 등록 · 첫 링크 발급",
+      "state": "미확인",
+      "detail": "휴대폰 본인인증 로그인 필요 — 이번 조회 미확인",
+      "state_key": ""
+    },
+    {
+      "name": "유튜브 쇼츠",
+      "state": "운영 중",
+      "detail": "1편 · 조회 24 · 댓글 1",
+      "state_key": "ready"
+    },
+    {
+      "name": "인스타그램 릴스",
+      "state": "운영 중",
+      "detail": "1편 · 좋아요 0 · 댓글 1 (조회수 웹 미표시)",
+      "state_key": "ready"
+    },
+    {
+      "name": "스레드",
+      "state": "운영 중",
+      "detail": "2편 · 조회 7 / 5 · 외부 댓글 0",
+      "state_key": "ready"
+    },
+    {
+      "name": "틱톡",
+      "state": "운영 중",
+      "detail": "1편 · 좋아요 1 · 댓글 0 (조회수 웹 미표시)",
+      "state_key": "ready"
+    },
+    {
+      "name": "네이버 블로그",
+      "state": "운영 중",
+      "detail": "2편 · 조회 5 / 12 · 공감 0 · 댓글 0",
       "state_key": "ready"
     }
   ],
   "content_mix": [
-    { "label": "블로그", "value": 2, "color": "#3BC48C" },
-    { "label": "스레드", "value": 2, "color": "#B47BFF" },
-    { "label": "숏폼 (쇼츠·릴스·틱톡)", "value": 3, "color": "#E8B33C" }
+    {
+      "label": "블로그",
+      "value": 2,
+      "color": "#3BC48C"
+    },
+    {
+      "label": "스레드",
+      "value": 2,
+      "color": "#B47BFF"
+    },
+    {
+      "label": "숏폼 (쇼츠·릴스·틱톡)",
+      "value": 3,
+      "color": "#E8B33C"
+    }
   ],
   "contents": [
     {
       "id": "blog-1",
       "platform": "네이버 블로그",
       "platform_key": "blog",
-      "kind": "블로그",
+      "kind": "블로그 · 조회 5 · 댓글 0",
       "title": "가열식 가습기 비교",
       "url": "https://blog.naver.com/beat1it/224494532329"
     },
@@ -97,7 +173,7 @@
       "id": "blog-2",
       "platform": "네이버 블로그",
       "platform_key": "blog",
-      "kind": "블로그",
+      "kind": "블로그 · 조회 12 · 댓글 0",
       "title": "보습로션 비교",
       "url": "https://blog.naver.com/beat1it/224494808961"
     },
@@ -105,7 +181,7 @@
       "id": "threads-1",
       "platform": "스레드",
       "platform_key": "threads",
-      "kind": "스레드",
+      "kind": "스레드 · 조회 7 · 좋아요 0",
       "title": "가열식 가습기",
       "url": "https://www.threads.com/@kkulpicklog/post/DgPN2oLnx8j"
     },
@@ -113,7 +189,7 @@
       "id": "threads-2",
       "platform": "스레드",
       "platform_key": "threads",
-      "kind": "스레드",
+      "kind": "스레드 · 조회 5 · 좋아요 0",
       "title": "난방비 · 전기요",
       "url": "https://www.threads.com/@kkulpicklog/post/DgPOWbwHyXV"
     },
@@ -121,7 +197,7 @@
       "id": "shorts-1",
       "platform": "유튜브 쇼츠",
       "platform_key": "youtube",
-      "kind": "숏폼",
+      "kind": "숏폼 · 조회 24 · 댓글 1",
       "title": "쇼츠 ①",
       "url": "https://youtube.com/shorts/Ggiqw7aAhE4"
     },
@@ -129,7 +205,7 @@
       "id": "reels-1",
       "platform": "인스타그램 릴스",
       "platform_key": "instagram",
-      "kind": "숏폼",
+      "kind": "숏폼 · 좋아요 0 · 댓글 1",
       "title": "릴스 ①",
       "url": "https://www.instagram.com/reel/DgPPiLQzJyU/"
     },
@@ -137,7 +213,7 @@
       "id": "tiktok-1",
       "platform": "틱톡",
       "platform_key": "tiktok",
-      "kind": "숏폼",
+      "kind": "숏폼 · 좋아요 1 · 댓글 0",
       "title": "틱톡 ①",
       "url": "https://www.tiktok.com/@kkulpicklog/video/7712765628578286854"
     }
@@ -268,7 +344,7 @@
     {
       "id": "coupang-verify",
       "task": "쿠팡 파트너스 본인인증",
-      "detail": "기한 2026-12-06",
+      "detail": "기한 2026-12-06 (8일 남음)",
       "urgent": true
     },
     {
@@ -281,6 +357,12 @@
       "id": "tiktok-comment",
       "task": "틱톡 첫 댓글에 제휴 링크 수동 추가",
       "detail": "영상 설명 링크가 막혀 댓글에 직접",
+      "urgent": false
+    },
+    {
+      "id": "toss-login",
+      "task": "토스 쉐어링크 실적 조회 로그인",
+      "detail": "휴대폰 본인인증 필요 (다혜 님 확인)",
       "urgent": false
     }
   ]
