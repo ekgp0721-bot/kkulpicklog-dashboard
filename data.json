@@ -46,9 +46,9 @@
     {
       "id": "channel_views",
       "label": "공개 채널 조회 (7건)",
-      "value": "53",
+      "value": "121",
       "unit": "회",
-      "sub": "블로그 17 · 스레드 12 · 쇼츠 24 · 릴스·틱톡 미표시",
+      "sub": "쇼츠 24 · 틱톡 68 · 블로그 17 · 스레드 12 (릴스 미표시)",
       "tone": "gold"
     }
   ],
@@ -129,7 +129,7 @@
     {
       "name": "틱톡",
       "state": "운영 중",
-      "detail": "1편 · 좋아요 1 · 댓글 0 (조회수 웹 미표시)",
+      "detail": "1편 · 조회 68 · 좋아요 1 · 댓글 0",
       "state_key": "ready"
     },
     {
@@ -209,7 +209,7 @@
       "id": "tiktok-1",
       "platform": "틱톡",
       "platform_key": "tiktok",
-      "kind": "숏폼 · 좋아요 1 · 댓글 0",
+      "kind": "숏폼 · 조회 68 · 좋아요 1 · 댓글 0",
       "title": "틱톡 ①",
       "url": "https://www.tiktok.com/@kkulpicklog/video/7712765628578286854"
     }
